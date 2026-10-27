@@ -1,0 +1,23 @@
+# Python environment
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Generated files
+uploads/*
+reports/*
+!uploads/.gitkeep
+!reports/.gitkeep
+
+# Test archives
+*.zip
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
